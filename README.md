@@ -1,7 +1,7 @@
 # Smart Mirror Project on Raspberry Pi
 
 ## Project Description:
-Display information on a screen mounted behind a Two-Way mirror using Raspberry Pi and PyQt.
+Display information on a screen mounted behind a Two-Way mirror using Raspberry Pi and PyQt. (Programmed for Munich, Germany)
 
 In this Implementation the following information are displayed:
 - Date and Time
@@ -21,3 +21,5 @@ In this Implementation the following information are displayed:
 ## TODO: 
 This implementation is getting obsolete.
 Upgrade the code to PyQt5.
+
+If the location is not Munich, look for an API of the current city transportation if available.
