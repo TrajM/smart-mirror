@@ -40,7 +40,7 @@ class MainApp(QMainWindow, Ui_Form):
 		self.text_station.setText(self.station)
 		
  
-		observation = self.owm.weather_at_place('')	#TODO: Insert city
+		observation = self.owm.weather_at_place('munich,de')	#TODO: Change city name
 		w = observation.get_weather()
 		
 		self.text_temp.setText(str(w.get_temperature('celsius')['temp'])+"°")
